@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production build artifacts
+client/dist/
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+client/.env
+client/.env.*
+!client/.env.example
+server/.env
+server/.env.*
+!server/.env.example
+
+# Logs
+*.log
+logs/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
